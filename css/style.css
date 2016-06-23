@@ -1,0 +1,113 @@
+
+/* custom button style START */
+.btn-xl {
+    color: #0a1217;
+    background-color: #6ff6f7;
+    border-color: #fff;
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-radius: 3px;
+    font-size: 18px;
+    padding: 20px 40px
+}
+.btn-xl:hover, .btn-xl:focus, .btn-xl:active, .btn-xl.active, .open .dropdown-toggle.btn-xl {
+    color: #fff;
+    background-color: #fed136;
+    border-color: #fff;
+}
+.btn-xl:active, .btn-xl.active, .open .dropdown-toggle.btn-xl {
+    background-image: none
+}
+.btn-xl.disabled, .btn-xl[disabled], fieldset[disabled] .btn-xl, .btn-xl.disabled:hover, .btn-xl[disabled]:hover, fieldset[disabled] .btn-xl:hover, .btn-xl.disabled:focus, .btn-xl[disabled]:focus, fieldset[disabled] .btn-xl:focus, .btn-xl.disabled:active, .btn-xl[disabled]:active, fieldset[disabled] .btn-xl:active, .btn-xl.disabled.active, .btn-xl[disabled].active, fieldset[disabled] .btn-xl.active {
+    background-color: #fed136;
+    border-color: #fed136;
+}
+.btn-xl .badge {
+    color: #fed136;
+    background-color: #fff;
+}
+/* custom button style END */
+
+/* custom header style START */
+header {
+    background-image: url(http://66.media.tumblr.com/e5a5cb3a646ded236a9d4773f6d58ec5/tumblr_nb369bU9no1txl3eeo1_1280.jpg);
+    background-repeat: none;
+    background-attachment: scroll;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    height: 830px;
+    -o-background-size: cover;
+    text-align: center;
+    color: #fff;
+}
+header .intro-text {
+    padding-top: 200px;
+    padding-bottom: 25px;
+}
+header .intro-text .intro-lead-in {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-size: 22px;
+    line-height: 22px;
+    margin-bottom: 60px
+}
+header .intro-text .intro-heading {
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 50px;
+    margin-bottom: 50px
+}
+#Glen-kaene{
+  font-size: 20px;
+  font-weight: lighter;
+}
+/* custom header style END */
+
+
+
+/* below are media queries */
+
+/* Extra small devices (phones, less than 768px) */
+
+@media(max-width:767px){
+
+  .box{
+  border: 3px solid red !important;
+
+  }
+
+}
+
+/* Small devices (tablets, 768px and up) */
+@media(min-width:768px){
+
+  .box{
+  border: 3px solid green !important;
+
+  }
+
+}
+/* Medium devices (desktops, 992px and up) */
+
+@media(min-width:992px){
+  .box{
+    border: 3px solid black !important;
+
+  }
+}
+
+/* Large devices (large desktops, 1200px and up) */
+
+@media(min-width:1200px){
+
+  .box{
+    border: 3px solid blue !important;
+
+  }
+
+}
